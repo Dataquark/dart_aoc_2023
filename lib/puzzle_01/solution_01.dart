@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() async {
-  final inputFile = File('./lib/puzzle_01/input/01.txt');
+  final inputFile = File('./lib/puzzle_01/input/input.txt');
 
   int theResult = await calibrationSum(inputFile);
   print(theResult);

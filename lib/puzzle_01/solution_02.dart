@@ -1,7 +1,7 @@
 import "dart:io";
 
 void main() async {
-  final inputFile = File("./lib/puzzle_01/input/01.txt");
+  final inputFile = File("./lib/puzzle_01/input/input.txt");
 
   // each key in a string will be replaced with value
   Map<String, String> digitMap = {
